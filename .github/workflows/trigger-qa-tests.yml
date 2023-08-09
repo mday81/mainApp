@@ -14,5 +14,6 @@ jobs:
         uses: peter-evans/repository-dispatch@v1
         with:
           token: ${{ secrets.REPO_ACCESS_TOKEN }}
-          repository: qatests/qatests
+          repository: mday81/qatests
           event-type: qa-tests
+          client-payload: '{ "foo" : "test-mus-bar"}'
