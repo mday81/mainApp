@@ -1,4 +1,4 @@
-name: Trigger blog to build
+name: Trigger Qa tests
 
 on:
   push:
